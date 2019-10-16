@@ -1,0 +1,40 @@
+ Locators : https://demostore.x-cart.com/shipping
+
+1). Sale 
+
+Answer : //a[@href='sale-products/'][text()='Sale']
+
+2) Comming Soon
+
+Answer://a[@href='coming-soon/']
+
+3) Smart Wathes (Electronics)
+
+Answer : //span[@class='category-label'][text()='Smart watches']
+
+4) Accessories (Fashion)
+Answer : //span[@class='category-label'][text()='Smart watches']
+
+5).Services (Footer - menu)
+
+Answer : Absoulute Path : //ul[@class='footer-menu']/li[3]/span
+
+
+6). Fashion (From Table)
+
+Answer(Long Relative) : //div[@id='sidebar-first']/div/div/div/div/ul/li/a[@title='Fashion']
+
+7). Contact US(From Desktop Header)
+
+//div[starts-with(@class,'desktop-header')]/div/div[@class='navbar navbar-inverse mobile-hidden']/div/ul/li[@class='leaf last']
+
+8) sale(Offer)
+Answer : //a[@href='sale-products/']
+
+9) Terms and Condition (Secondary Menu): 
+
+Answer : //div[@id='secondary-menu']/ul/li[@class='leaf active']/ul/li/a[@href='terms-and-conditions']
+
+10) Phone(Contact - us Container)
+
+Answer : //div[@class='contact_us-container']/ul/li[@class='phone']

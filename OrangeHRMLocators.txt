@@ -1,0 +1,118 @@
+
+Name : A R Rathod 
+
+Link : https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList
+
+
+
+
+1)PIM Menu  : Relative
+
+Answer : //div[@class='menu']/ul/li[@class='current']/a[@id='menu_pim_viewPimModule']
+
+
+
+
+2)Employee Name(ABS - X Path) : 
+
+
+Answer : /html[1]/body[1]/div[1]/div[3]/div[1]/div[2]/form[1]/fieldset[1]/ol[1]/li[1]/input[1]
+
+
+
+
+
+3) Find Buttons Using 'or' : Relative X path
+
+Answer : //input[@type='button' and @id='searchBtn' or  @id='resetBtn' or @id='btnAdd' or @id='btnDelete']
+
+
+4) Find Administration from table ;
+
+
+Answer : //tr[@class='even']//td[text()='Administration']
+
+
+
+5)IT Manager : Relative x path
+
+
+
+
+
+
+Answer : //td[text()='IT Manager']
+
+
+
+
+Answer : //td[starts-with(text(),'IT Manager')]
+
+
+
+6).Employement Status 
+
+
+
+
+Answer : //select[@name='empsearch[employee_status]']
+
+
+
+
+7).Supervisor Of Sales
+
+
+
+
+
+Answer : //td[text()='Sales Executive']//following-sibling::td[2]
+
+
+8) Sub Unit "IT" - IT Execute
+
+
+Answer : //td[text()='IT Executive']//following-sibling::td[2]
+
+
+9) Finance : 
+
+
+Answer : //a[contains(@class,'navbar-link') and contains(@href,'sign_in')]
+
+
+
+
+10): IT Executive 
+
+Answer : //td[contains(text(),'IT Executive')
+
+
+11): Finance Manager 
+
+Answer : //td[contains(text(),'Finance Manager')]
+
+
+12).IT Of Finance Manager : 
+
+
+Answer : //tr[@class='odd']//td[@class='left'][contains(text(),'IT')]
+
+
+
+13).IT (Finance Manager sub unit)
+
+
+Answer : tr[@class='odd']//td[@class='left'][text()='IT']
+
+
+
+14) Sales Of Sales Manager 
+
+Answer : //tr[@class='even']//td[@class='left'][text()='Sales Manager']//following-sibling::td[2]
+
+
+15) : Administration (HR Executive)
+
+Answer://tr[@class='odd']//td[@class='left'][contains(text(),'Administration')]
+

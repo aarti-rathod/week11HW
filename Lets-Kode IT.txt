@@ -1,0 +1,38 @@
+Let's kode It : 
+
+1) Java Script Programming Language Price  :
+Answer : //td[text()='JavaScript Programming Language']//following-sibling::td[1]
+
+
+2).Selenium Course Price : 
+Answer : //table[@id='product']/tbody/tr/td[starts-with(text(),'Selenium')]/following-sibling::td
+
+3) Benz By Following : 
+
+Answer : //div[@class='left-align']/fieldset/label[@for='bmw']/following-sibling::label[@for='benz']
+
+4).Radio button : Check box // benz preceding7
+
+Answer : //div[@class='right-align']/fieldset/label[@for='benz']/preceding-sibling::label
+
+5) Select Class Example : Benz selection by following - sibling
+
+Answer : //div[@class='cen-left-align']/fieldset/select/option[@value='bmw']/following-sibling::option[@value='benz']
+
+6) select Multiple select example : relative - parent to child + following sibling
+
+Answer : //div[@class='cen-right-align']/fieldset/select/option[@value='apple']/following-sibling::option[1]
+
+7).Switch Tab Example :
+
+Answer : //div[@class='block large-row-spacer']/div[@class='cen-align']/fieldset/a[@id='opentab']
+
+8).Element Display Example
+Answer: //div[@class='right-align']/fieldset/legend[text()='Element Displayed Example']
+
+9).Python Programming language Price : 
+
+Answer : //table[@id='product']/tbody/tr/td[text()='Python Programming Language']/preceding-sibling::td
+
+10).Switch To Alert Exampe using 'AND' : 
+Answer : //input[@class='btn-style' and @id='alertbtn']
